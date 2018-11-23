@@ -10,18 +10,22 @@ public class HelloWorld {
 
 
     }
-    public void sayHello(Date date) {
+    public int sayHello(Date date) {
         int hours = date.getHours();
         int minute = date.getMinutes();
         ResourceBundle bundle = ResourceBundle.getBundle("Bundle", locale);
         if ((hours >= 6) && ((hours <= 8) && (minute <= 59))) {
             System.out.println(bundle.getString("Morn"));
+            return  1;
         } else if ((hours >= 9) && ((hours <= 18) && (minute <= 59))) {
             System.out.println(bundle.getString("Day"));
+            return  2;
         } else if ((hours >= 19) && ((hours <= 22) && (minute <= 59))) {
             System.out.println(bundle.getString("Ev"));
+            return  3;
         } else {
             System.out.println(bundle.getString("N"));
+            return  4;
         }
     }
 
