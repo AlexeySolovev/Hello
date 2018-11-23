@@ -51,7 +51,7 @@ public class HelloWorldTest {
     @Test
     public void sayHellon() {
 
-        assertEquals(2, helloWorld.sayHello(new Date(1542994105837L+360000000L)));
+        assertEquals(3, helloWorld.sayHello(new Date(1542994105837L+360000000L)));
         log.info("Тест 4 прошел");
     }
 }
