@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d578e033-c0b6-4395-b6f6-c92dbcb3da7b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HelloWorldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HelloWorldTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -56,12 +57,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="177" />
+          <entry key="java" value="197" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="177" />
+          <entry key="JAVA" value="197" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -102,12 +103,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/HelloWorldTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="323">
+              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#207#208#0" expanded="true" />
                 <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
                 <element signature="e#293#294#0" expanded="true" />
                 <element signature="e#380#381#0" expanded="true" />
                 <element signature="e#421#422#0" expanded="true" />
@@ -268,7 +271,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543001207920" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543001677056" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -339,13 +342,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HelloWorldTest - 2018.11.23 at 22h 13m 31s.xml">
-      <configuration name="HelloWorldTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HelloWorldTest - 2018.11.23 at 22h 19m 46s.xml">
       <configuration name="HelloWorldTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="HelloWorldTest - 2018.11.23 at 22h 22m 37s.xml">
+      <configuration name="HelloWorldTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloWorldTest - 2018.11.23 at 22h 26m 51s.xml">
+      <configuration name="HelloWorldTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloWorldTest - 2018.11.23 at 22h 30m 38s.xml">
+      <configuration name="HelloWorldTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloWorldTest - 2018.11.23 at 22h 31m 02s.xml">
+      <configuration name="HelloWorldTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloWorldTest - 2018.11.23 at 22h 31m 14s.xml">
+      <configuration name="HelloWorldTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloWorldTest - 2018.11.23 at 22h 31m 17s.xml">
+      <configuration name="HelloWorldTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloWorldTest - 2018.11.23 at 22h 31m 19s.xml">
+      <configuration name="HelloWorldTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloWorldTest - 2018.11.23 at 22h 31m 22s.xml">
+      <configuration name="HelloWorldTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloWorldTest - 2018.11.23 at 22h 32m 20s.xml">
       <configuration name="HelloWorldTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -449,12 +473,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HelloWorldTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        <state relative-caret-position="323">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#207#208#0" expanded="true" />
             <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
             <element signature="e#293#294#0" expanded="true" />
             <element signature="e#380#381#0" expanded="true" />
             <element signature="e#421#422#0" expanded="true" />
