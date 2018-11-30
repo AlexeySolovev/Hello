@@ -31,27 +31,30 @@ public class HelloWorldTest {
     }
 
     @Test
-    public void sayHelloM() {
-        assertEquals(4, helloWorld.sayHello(new Date(1542994105837L - 43200000L)));
+    public void sayHelloMorning() {
+        //Fri Nov 23 08:28:25 MSK 2018
+        assertEquals(1, helloWorld.sayHello(new Date(1542950905837L)));
         log.info("Тест 1 прошел");
     }
 
     @Test
-    public void sayHelloD() {
-        assertEquals(1, helloWorld.sayHello(new Date(1542994105837L - 36000100L)));
+    public void sayHelloDay() {
+        //Fri Nov 23 10:28:25 MSK 2018
+        assertEquals(2, helloWorld.sayHello(new Date(1542958105737L)));
         log.info("Тест 2 прошел");
     }
 
     @Test
-    public void sayHelloE() {
-        assertEquals(2, helloWorld.sayHello(new Date(1542994105837L)));
+    public void sayHelloEvening() {
+        //Fri Nov 23 20:28:25 MSK 2018
+        assertEquals(3, helloWorld.sayHello(new Date(1542994105837L)));
         log.info("Тест 3 прошел");
     }
 
     @Test
-    public void sayHellon() {
-
-        assertEquals(3, helloWorld.sayHello(new Date(1542994105837L+360000000L)));
+    public void sayHelloNight() {
+        //Wed Nov 28 00:28:25 MSK 2018
+        assertEquals(4, helloWorld.sayHello(new Date(1543354105837L)));
         log.info("Тест 4 прошел");
     }
 }
