@@ -15,7 +15,7 @@ public class HelloWorld {
         int minute = date.getMinutes();
         ResourceBundle bundle = ResourceBundle.getBundle("Bundle", locale);
         if ((hours >= 6) && ((hours <= 8) && (minute <= 59))) {
-            System.out.println(bundle.getString("Morning"));
+            System.out.println(new Date(1542950905837L));
             return  1;
         } else if ((hours >= 9) && ((hours <= 18) && (minute <= 59))) {
             System.out.println(bundle.getString("Day"));
