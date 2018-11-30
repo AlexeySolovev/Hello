@@ -5,6 +5,7 @@ import org.junit.Test;
 import java.io.IOException;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.GregorianCalendar;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
 
@@ -34,44 +35,28 @@ public class HelloWorldTest {
     @Test
     public void sayHelloMorning() {
         //Fri Nov 23 08:28:25 MSK 2018
-        Calendar calendar = Calendar.getInstance();
-        calendar.set(Calendar.YEAR,2018);
-        calendar.set(Calendar.MONTH,Calendar.NOVEMBER);
-        calendar.set(Calendar.DAY_OF_MONTH,23);
-        calendar.set(Calendar.HOUR,6);
+        Calendar calendar = new GregorianCalendar(2014, 10, 1, 8, 30);
         assertEquals(1, helloWorld.sayHello(calendar.getTime()));
         log.info("Тест 1 прошел");
     }
 
     @Test
     public void sayHelloDay() {
-        Calendar calendar = Calendar.getInstance();
-        calendar.set(Calendar.YEAR,2018);
-        calendar.set(Calendar.MONTH,Calendar.NOVEMBER);
-        calendar.set(Calendar.DAY_OF_MONTH,23);
-        calendar.set(Calendar.HOUR,12);
+        Calendar calendar = new GregorianCalendar(2014, 10, 1, 10, 30);
         assertEquals(2, helloWorld.sayHello(calendar.getTime()));
         log.info("Тест 2 прошел");
     }
 
     @Test
     public void sayHelloEvening() {
-        Calendar calendar = Calendar.getInstance();
-        calendar.set(Calendar.YEAR,2018);
-        calendar.set(Calendar.MONTH,Calendar.NOVEMBER);
-        calendar.set(Calendar.DAY_OF_MONTH,23);
-        calendar.set(Calendar.HOUR,20);
+        Calendar calendar = new GregorianCalendar(2014, 10, 1, 20, 30);
         assertEquals(3, helloWorld.sayHello(calendar.getTime()));
         log.info("Тест 3 прошел");
     }
 
     @Test
     public void sayHelloNight() {
-        Calendar calendar = Calendar.getInstance();
-        calendar.set(Calendar.YEAR,2018);
-        calendar.set(Calendar.MONTH,Calendar.NOVEMBER);
-        calendar.set(Calendar.DAY_OF_MONTH,23);
-        calendar.set(Calendar.HOUR,22);
+        Calendar calendar = new GregorianCalendar(2014, 10, 1, 23, 30);
         assertEquals(4, helloWorld.sayHello(calendar.getTime()));
         log.info("Тест 4 прошел");
     }
