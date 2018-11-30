@@ -3,6 +3,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.io.IOException;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
@@ -33,28 +34,45 @@ public class HelloWorldTest {
     @Test
     public void sayHelloMorning() {
         //Fri Nov 23 08:28:25 MSK 2018
-        assertEquals(1, helloWorld.sayHello(new Date(1542950905837L)));
+        Calendar calendar = Calendar.getInstance();
+        calendar.set(Calendar.YEAR,2018);
+        calendar.set(Calendar.MONTH,Calendar.NOVEMBER);
+        calendar.set(Calendar.DAY_OF_MONTH,23);
+        calendar.set(Calendar.HOUR,6);
+        assertEquals(1, helloWorld.sayHello(calendar.getTime()));
         log.info("Тест 1 прошел");
     }
 
     @Test
     public void sayHelloDay() {
-        //Fri Nov 23 10:28:25 MSK 2018
-        assertEquals(2, helloWorld.sayHello(new Date(1542958105737L)));
+        Calendar calendar = Calendar.getInstance();
+        calendar.set(Calendar.YEAR,2018);
+        calendar.set(Calendar.MONTH,Calendar.NOVEMBER);
+        calendar.set(Calendar.DAY_OF_MONTH,23);
+        calendar.set(Calendar.HOUR,12);
+        assertEquals(2, helloWorld.sayHello(calendar.getTime()));
         log.info("Тест 2 прошел");
     }
 
     @Test
     public void sayHelloEvening() {
-        //Fri Nov 23 20:28:25 MSK 2018
-        assertEquals(3, helloWorld.sayHello(new Date(1542994105837L)));
+        Calendar calendar = Calendar.getInstance();
+        calendar.set(Calendar.YEAR,2018);
+        calendar.set(Calendar.MONTH,Calendar.NOVEMBER);
+        calendar.set(Calendar.DAY_OF_MONTH,23);
+        calendar.set(Calendar.HOUR,20);
+        assertEquals(3, helloWorld.sayHello(calendar.getTime()));
         log.info("Тест 3 прошел");
     }
 
     @Test
     public void sayHelloNight() {
-        //Wed Nov 28 00:28:25 MSK 2018
-        assertEquals(4, helloWorld.sayHello(new Date(1543354105837L)));
+        Calendar calendar = Calendar.getInstance();
+        calendar.set(Calendar.YEAR,2018);
+        calendar.set(Calendar.MONTH,Calendar.NOVEMBER);
+        calendar.set(Calendar.DAY_OF_MONTH,23);
+        calendar.set(Calendar.HOUR,22);
+        assertEquals(4, helloWorld.sayHello(calendar.getTime()));
         log.info("Тест 4 прошел");
     }
 }
